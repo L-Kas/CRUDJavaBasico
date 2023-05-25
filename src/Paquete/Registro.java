@@ -70,6 +70,11 @@ Conexion conect = Conexion.getInstance();
         });
 
         jButton1.setText("Actualizar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         btn_consultar.setText("Consultar");
         btn_consultar.addActionListener(new java.awt.event.ActionListener() {
@@ -244,6 +249,12 @@ JOptionPane.showMessageDialog(null, "ERROR:    "+e);
 
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_verificarActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
